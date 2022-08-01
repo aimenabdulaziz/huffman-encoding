@@ -13,7 +13,7 @@ Huffman encoding gives the smallest possible fixed encoding of a file. A fixed e
 The program handles a number of edge cases such as an empty file, a file with a single character, and a file with single character repeated a bunch of times. It has been tested on txt files containing the aforementioned test cases and bigger files (such as the U.S. Constitution and War And Peace).
 
 ## Usage
-1. Open Huffman.java
+1. Open `Huffman.java`
 2. To compress or decompress a txt file, pass the directory of the file as a parameter to the compressor or decompressor method of Huffman class accordingly:
 `compress("directory")` or `decompress("directory")`.
 
